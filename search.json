@@ -1,0 +1,66 @@
+[
+  
+    {
+      "title"    : "",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/404.html"
+    } ,
+  
+    {
+      "title"    : "About",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/about.html"
+    } ,
+  
+    {
+      "title"    : "Desenvolvedores",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/pt-BR/dev.html"
+    } ,
+  
+    {
+      "title"    : "Taxas e Limites",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/pt-BR/fees.html"
+    } ,
+  
+    {
+      "title"    : "Ajuda e Suporte",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/pt-BR/help.html"
+    } ,
+  
+    {
+      "title"    : "Institucional",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/pt-BR/institutional.html"
+    } ,
+  
+    {
+      "title"    : "Termos de Uso",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/pt-BR/legal.html"
+    } ,
+  
+    {
+      "title"    : "Sala de Imprensa",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/pt-BR/press.html"
+    } ,
+  
+    {
+      "title"    : "",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/search.json"
+    } 
+  
+]
