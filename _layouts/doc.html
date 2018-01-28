@@ -1,0 +1,186 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} - BRE Coins Desenvolvedores</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="/assets/styles/main.css">
+  <!-- endbuild -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <main>
+
+    <section class="hero is-light">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar top is-dark" style="background: #000">
+          <div class="container">
+            <div id="navbartop" class="navbar-menu">
+              <div class="navbar-brand ">
+                <a class="navbar-item">
+                  <img src="/assets/images/logo-bre.svg" width="180" alt="Logo">
+                </a>
+                <span class="navbar-burger burger" data-target="navbarPrincipal">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+                <span class="navbar-item">
+                  <a href="/">Home</a>
+                </span>
+                <span class="navbar-item">
+                  <a href="https://broker.brecoins.com.br">Acesso à Plataforma</a>
+                </span>
+                <span class="navbar-item">
+                  <a href="https://brecoins.com.br">Voltar ao Site</a>
+                </span>
+              </div>
+              <div class="navbar-end">
+                <span class="navbar-item">
+                  <a href="https://github.com/BRECoins/Docs/blob/master/{{ page.path }}">Editar esta página</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Documentação para Desenvolvedores
+          </h1>
+
+          <hr>
+          <script>
+            (function() {
+              var cx = '010127893081585621987:mdu2ndoijqc';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
+
+            <div id="results-container"></div>
+
+
+          <div class="tabs is-boxed is-large">
+            <ul>
+              <li>
+                <a href="/rest">
+                  <span class="icon is-small">
+                    <i class="fa fa-globe"></i>
+                  </span>
+                  <span>REST API</span>
+                </a>
+              </li>
+              <li>
+                <a href="/socketio">
+                  <span class="icon is-small">
+                    <i class="fa fa-plug"></i>
+                  </span>
+                  <span>Socket.io API</span>
+                </a>
+              </li>
+              <li>
+                <a href="/algo">
+                  <span class="icon is-small">
+                    <i class="fa fa-terminal"></i>
+                  </span>
+                  <span>Algotrading</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          
+          <div class="columns">
+              <div class="column is-3">
+                <aside class="menu" id="toc">
+                </aside>
+              </div>
+              <div class="column is-9">
+                <div class="content">
+                  
+                  {{ content }}
+
+
+                </div>
+              </div>
+
+          </div>
+          
+
+    </section>
+
+
+    {% include footer.html %}
+
+  </main>
+
+  <!-- Google Analytics -->
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function () {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-111516222-1');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <script src="/assets/scripts/toc.js"></script>
+
+  <!-- build:js scripts/main.js -->
+  <script src="/assets/scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
+
+
+
