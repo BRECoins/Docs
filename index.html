@@ -1,7 +1,100 @@
-<script type="text/javascript">
-var userLang = navigator.language || navigator.userLanguage;
-if(/^(pt\-BR|en\-US)$/.test(userLang))
-	location.href = '/'+userLang;
-else
-	location.href = '/en-US';
-</script>
+---
+# Home
+---
+<!doctype html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="BRE Coins é a mais avançada plataforma de trading de bitcoins do Brasil">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>BRE Coins Desenvolvedores</title>
+      <link rel="stylesheet" href="/assets/styles/main.css">
+      <link rel="stylesheet" href="/assets/styles/custom.css">
+      <script src="/assets/scripts/vendor/modernizr.js"></script>
+   </head>
+   <body>
+      <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <main>
+         <section class="inicio hero is-dark is-fullheight">
+            <div class="hero-head">
+               <nav class="navbar top">
+                  <div class="container">
+                     <div id="navbartop" class="navbar-menu">
+                        <div class="navbar-end">
+                           <span class="navbar-item is-active">
+                              <form class="field" action="/search">
+                                 <p class="control has-icons-left has-icons-right"><input class="input" name="q" type="text" placeholder="Pesquisar"> <span class="icon is-small is-left"><i class="fa fa-search"></i></span></p>
+                              </form>
+                           </span>
+                           <!-- <span class="navbar-item is-active">
+                              <div class="select">
+                                 <select name="">
+                                    <option value="">Português</option>
+                                 </select>
+                              </div>
+                           </span> -->
+                        </div>
+                     </div>
+                  </div>
+               </nav>
+               <header class="navbar is-dark">
+                  <div class="container">
+                     <div class="navbar-brand"><a class="navbar-item"><img src="/assets/images/logo-bre.svg" width="180" alt="Logo"> </a><span class="navbar-burger burger" data-target="mainNavbar"><span></span> <span></span> <span></span></span></div>
+                     <div id="mainNavbar" class="navbar-menu">
+                        <div class="navbar-start"><a class="navbar-item" href="/rest">REST API </a><a class="navbar-item" href="/socketio">Socket.IO API</a> <a class="navbar-item" href="/algo">Algotrading</a></div>
+                        <div class="navbar-end"><span class="navbar-item"><a href="https://broker.brecoins.com.br/" class="button is-success"><span>Acesso à Plataforma</span></a></span></div>
+                     </div>
+                  </div>
+               </header>
+            </div>
+            <div class="hero-body">
+               <div class="container">
+                  <h1 class="title">Conecte <b><span class="typing-words">
+                            Seu 
+                      <span>Site</span>
+                      <span>Aplicativo</span>
+                      <span>Robô</span>
+                      <span>Usuário</span>
+                      <span>Projeto</span>
+                    </span></b><br> com Oportunidades Ilimitadas!</h1>
+                  <hr/>
+                  <h2 class="subtitle">Documentação para Desenvolvedores.</h2>
+               </div>
+            </div>
+         </section>
+         <section class="blockchain hero is-info is-medium">
+            <div class="hero-body">
+              <div class="columns is-centered">
+                  <div class="column is-half has-text-centered">
+                    <h2 class="subtitle">Você sabia que a interface de nossa plataforma, nossa documentação e FAQ 
+                    aceitam contribuições da comunidade de desenvolvedores?</h2>
+                  </div>
+               </div>
+               <div class="columns is-centered">
+                  <div class="column is-half has-text-centered"><a class="button is-large is-success is-inverted is-outlined is-fullwidth" href="https://github.com/BRECoins" target="_blank">Contribua no GitHub</a></div>
+               </div>
+            </div>
+         </section>
+         <section class="ajuda hero is-info is-medium">
+            <div class="hero-body">
+               <div class="container">
+                  <div class="columns">
+                     <div class="column is-half has-text-left">
+                        <h3 class="title is-3">Precisa de nossa ajuda?</h3>
+                        <p>Conte com o auxílio de nossa equipe altamente treinada para oferecer a melhor assistência com clareza e eficiência. Até mesmo aos desenvolvedores.</p>
+                        <br>
+                        <div class="columns">
+                           <div class="column is-6"><a href="https://tawk.to/chat/5a255df8d0795768aaf8d42c/default/?$_tawk_popout=true" target="_blank" class="button is-medium is-success is-inverted is-bold is-fullwidth">Visite o suporte</a></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         {% include footer.html %}
+      </main>
+      <script>!function(e,a,t,n,g,c){e.GoogleAnalyticsObject="ga",e.ga||(e.ga=function(){(e.ga.q=e.ga.q||[]).push(arguments)}),e.ga.l=+new Date,g=a.createElement("script"),c=a.getElementsByTagName("script")[0],g.src="https://www.google-analytics.com/analytics.js",c.parentNode.insertBefore(g,c)}(window,document),ga("create","UA-111516222-1"),ga("send","pageview")</script><script src="scripts/vendor.js"></script>
+   </body>
+</html>
