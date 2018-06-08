@@ -16,7 +16,7 @@ Há um limite de 7 solicitações por segundo. Caso sua aplicação necessite re
 
 # Ticker
 
-Esta API fornece informações de *tickeriing* a partir de um request HTTP.
+Esta API fornece informações de *tickering* a partir de um request HTTP.
 
 **Request**
 
@@ -57,7 +57,7 @@ Os resultados estão limitados a 1000.
 
 **Request**
 
-> /api/v1/BTC-BRL/offerbook
+> /api/v1/BTC-BRL/orderbook
 
 Exemplo de resposta:
 
@@ -81,8 +81,8 @@ Onde:
 * **nick**: Identificação do usuário (nome aleatório de uma capital ou centro financeiro seguido de um conjunto único de letras e números)
 * **amount_crypto**: Quantidade de criptomoeda que carrega a ordem, caso esta seja uma ordem de venda. A cada negociação parcial, o valor negociado é deduzido deste item.
 * **amount_fiat**: Quantidade de fiduciária que carrega a ordem, caso esta seja uma ordem de compra. A cada negociação parcial, o valor negociado é deduzido deste item.
-* **crypto_price_min**: Cotação mínima (em ordens de compra)
-* **crypto_price_max**: Cotação máxima (em ordens de venda)
+* **crypto\_price\_min**: Cotação mínima (em ordens de compra)
+* **crypto\_price\_max**: Cotação máxima (em ordens de venda)
 * **type**: "buy" se esta for uma ordem de compra ou "sell" se for uma ordem de venda
 
 É válido notar que, ao passo que a API anterior retornou um objeto dotado de propriedades, esta API retorna um vetor dotado de objetos, tendo em vista que seu propósito é retornar múltiplos dados estruturados.
@@ -95,7 +95,7 @@ Esta API retorna apenas os dados referentes às últimas 24 horas. Os dados são
 
 **Request**
 
-> /api/v1/BTC-BRL/transactions
+> /api/v1/BTC-BRL/trades
 
 Exemplo de resposta:
 
