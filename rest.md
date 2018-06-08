@@ -9,14 +9,14 @@ Todas as solicitações são realizadas contra o seguinte servidor:
 
 > https://backend.brecoins.com.br
 
-As solicitações podem partir de qualquer domínio, mesmo via AJAX do lado do cliente, pois o cabeçalho `Access-Control-Allow-Origin` (CORS) está definido como `*`. Por este mesmo motivo, JSONP não está dispon[ivel. Não é necessário autenticação. O retorno é dado em JSON.
+As solicitações podem partir de qualquer domínio, mesmo via AJAX do lado do cliente, pois o cabeçalho `Access-Control-Allow-Origin` (CORS) está definido como `*`. Por este mesmo motivo, JSONP não está disponível. Não é necessário autenticação. O retorno é dado em JSON.
 
-Há um limite de 7 solicitações por segundo. Caso sua aplicação necessite realizar mais solicitações, por favor, utilize a [WebSocket APi](/socketio).
+Há um limite de 7 solicitações por segundo. Caso sua aplicação necessite realizar mais solicitações, por favor, utilize a [WebSocket API](/socketio).
 
 
 # Ticker
 
-Esta API fornece informações de *ticking* a partir de um request HTTP.
+Esta API fornece informações de *tickeriing* a partir de um request HTTP.
 
 **Request**
 
